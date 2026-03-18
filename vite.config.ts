@@ -17,6 +17,11 @@ export default defineConfig({
     },
   },
 
+  build: {
+    // Output directory for the build
+    outDir: 'docs',
+  },
+
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
